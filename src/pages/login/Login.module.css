@@ -1,0 +1,51 @@
+.containerLoginForm {
+  box-shadow:5px 5px 31px 5px #000000 ;
+   border-radius: 6px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  background-color: rgb(51, 52, 52);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.containerImg {
+ border: none;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  height: auto;
+}
+.containerImg img {
+  margin: 0;
+}
+.containerForm {
+  border: none;
+  display: flex;
+  justify-content: center;
+ padding: 10px;
+  width: 300px;
+  margin: 20px;
+  height: auto;
+}
+.passwordContainer {
+  position: relative;
+}
+.passwordEye {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: gray;
+}
+.submitBtn{
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 100%;
+  text-transform: uppercase;
+  border: none;
+}

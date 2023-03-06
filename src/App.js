@@ -12,13 +12,19 @@ function App() {
   return (
     <>
       <Router>
-        <Header></Header>
-        <Routes>
+        <header>
+           <Header></Header>
+        </header>
+        <main>
+           <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
         </Routes>
+        </main>
+       
+       
       </Router>
 
       <footer className="container-fluid p-0 bg-primary">
